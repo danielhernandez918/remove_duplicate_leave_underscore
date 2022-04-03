@@ -19,6 +19,7 @@ function removeDuplicates (arr) {
     }
     const output = `${k}, nums = [${newArr}]`
     return output
+    // return k
 }
 console.log(removeDuplicates(x))
 console.log(removeDuplicates(y))
